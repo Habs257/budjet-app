@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #444;
+}
+.container_horloge{
+width: 300px;
+height: 300px;
+border: 1px solid black;
+border-radius: 50%;
+background-image: url(img/free-clock-faces-design-1024x1012-removebg-preview.png);
+background-color: black;
+background-size: cover;
+}
+.nom{
+    position: absolute;
+    top: 49.2%;
+    right: 47%;
+    color: azure;
+}
+.horlo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: bottom;
+    border-radius: 2px;
+}
+.hr{
+ width: 4px;
+ height: 3%;
+ background-color: rgb(255,49,123); 
+ transform: translateX(-50%); 
+}
+.mn{
+    width: 2px;
+    height: 5%;
+    background-color: rgb(208,194,26); 
+    transform: translateX(-50%); 
+   }
+.sec{
+    width: 1px;
+    height: 6%;
+    background-color: rgb(38,193,90); 
+    transform: translateX(-50%); 
+}

@@ -1,0 +1,119 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(65,80,110);
+}
+.calc{
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    padding: 10px 20px 20px;
+    border-radius: 20px;
+    background-color: rgb(65,80,110);
+    box-shadow: 0 5px 10px ;
+}
+
+.all{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4 , 1fr);
+}
+.display{
+    height: 80px;
+    width: 100%;
+    margin-bottom: 30px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    text-align: right;
+    color: black;
+    background-color: rgb(26,35,60);
+    border-radius: 10px;
+}
+.display .theme2{
+    background-color: #efefef;
+    display: none;
+}
+.display .theme3{
+    background-color: #20043b;
+    display: none;
+}
+.calc button{
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+}
+.fall{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60px;
+    height: 20px;
+    background-color: #27334d;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.fall .theme2{
+    background-color:rgb(215,210,211);
+    display: none;
+}
+.fall .theme3{
+    background-color: rgb(32,4,59);
+    display: none;
+}
+.theme1{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color:#bd4b41;
+}
+.theme1 body{
+    background-color: rgb(65,80,110);
+    display: none;
+}
+.theme2{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color:#cb6002;
+}
+.theme2 body{
+background-color: rgb(233,233,233);
+display: none;
+}
+.theme2.text{
+    background-color: #fbfeff;
+    display: none; 
+}
+.theme3{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color:#01e3d5;
+}
+.theme3 body{
+    background-color: rgb(23,2,44);
+    display: none;
+}
+.theme3.text{
+    background-color: #c3b52b;
+    display: none;
+}
+.theme .theme1 .theme2 .theme3{
+justify-content: space-between;
+}
+.theme{
+    display: flex;
+    justify-content: end;
+}
+.some{
+    background-color: hsl(187.59,39.3%,39.41%);
+    color: white;
+}
+.thing{
+    background-color: rgb(157,74,8);
+    color: white;
+}

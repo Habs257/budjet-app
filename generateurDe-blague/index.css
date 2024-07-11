@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(10,102,194);
+
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: blue;
+}
+.all{
+    height: 92vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.auteu{
+   text-align: end;
+    width: 600px;
+}
+.bou{
+    display: flex;
+    justify-content: center;
+}
+p , span{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+footer{
+    width: 100%;
+   text-align: center;
+   height: 50px;
+   padding-top: 20px;
+   background-color: blue;
+   color: aliceblue;
+   
+}
